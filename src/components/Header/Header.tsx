@@ -17,16 +17,16 @@ export default function Header() {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/">Quem somos</Link>
+              <Link href="/sobre">Quem somos</Link>
             </li>
             <li>
-              <Link href="/">Fale conosco</Link>
+              <Link href="/fale">Fale conosco</Link>
             </li>
             <li>
-              <Link href="/">FAQ</Link>
+              <Link href="/faq">FAQ</Link>
             </li>
             <li>
-              <Link href="/" className="bg-[#83FF62] text-black px-4 py-2 rounded-md hover:bg-green-600 transition">
+              <Link href="/login" className="bg-[#83FF62] text-black px-4 py-2 rounded-md hover:bg-green-600 transition">
                 Iniciar Sessão
               </Link>
             </li>
