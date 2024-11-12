@@ -10,12 +10,9 @@ export default function Header() {
           <Link href="/">
             <Image src="/img/logo_luminus.png" alt="Logo Luminus" width={150} height={40} className="w-32 h-auto" />
           </Link>
-        </div>       
+        </div>
         <div>
           <ul className="flex space-x-6 text-white">
-          <li>
-              <Link href="/">Home</Link>
-            </li>
             <li>
               <Link href="/">Quem somos</Link>
             </li>
@@ -26,7 +23,9 @@ export default function Header() {
               <Link href="/">FAQ</Link>
             </li>
             <li>
-              <Link href="/">Iniciar Sessão</Link>
+              <Link href="/" className="bg-[#83FF62] text-black px-4 py-2 rounded-md hover:bg-green-600 transition">
+                Iniciar Sessão
+              </Link>
             </li>
           </ul>
         </div>
