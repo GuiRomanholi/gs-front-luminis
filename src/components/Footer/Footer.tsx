@@ -15,17 +15,17 @@ export default function Footer() {
                 <p>|</p>
                 <li>
                     <a href="https://github.com/GuiRomanholi/gs-front-luminis" target="_blank">
-                        {<Image src="/img/logo_github_branco.png" alt="Youtube_Branco" width={200} height={200}/>}
+                        {<Image src="/img/icon_youtube.png" alt="Youtube_Branco" width={200} height={200}/>}
                     </a>
                 </li>
                 <li>
                     <a href="https://github.com/GuiRomanholi/gs-front-luminis" target="_blank">
-                        {<Image src="/img/logo_github_branco.png" alt="Github_Branco" width={200} height={200}/>}
+                        {<Image src="/img/icon_github.png" alt="Github_Branco" width={200} height={200}/>}
                     </a>
                 </li>
                 <li>
                     <a href="https://github.com/GuiRomanholi/gs-front-luminis" target="_blank">
-                        {<Image src="/img/logo_github_branco.png" alt="Instagram_Branco" width={200} height={200}/>}
+                        {<Image src="/img/icon_instagram.png" alt="Instagram_Branco" width={200} height={200}/>}
                     </a>
                 </li>
             </ul>
