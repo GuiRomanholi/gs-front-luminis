@@ -46,6 +46,19 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section>
+        <div>
+          <h1>Com a <strong>Luminis</strong> você conseguirá: </h1>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <strong>Conscientização Ambiental:</strong> Entenda o impacto do seu consumo 
+              de energia no meio ambiente.
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
   );
 }
