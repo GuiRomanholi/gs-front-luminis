@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <section className="flex flex-col items-center text-center py-0 bg-[#f0f0f0]">
         <div className="w-full flex justify-end mt-0 mb-0">
-          <Image src="/img/img_verde_sup.png" alt="img_superior_verde" width={700} height={700} className="w-[600px] h-auto" />
+          <Image src="/img/img_verde_sup.png" alt="img_superior_verde" width={700} height={700} className="w-[500px] h-auto" />
         </div>
 
         <div className="max-w-4xl px-4 mt-0 mb-0">
@@ -24,14 +24,14 @@ export default function Home() {
         </div>
 
         <div className="w-full flex justify-start mt-0 mb-0">
-          <Image src="/img/img_verde_inf.png" alt="img_inferior_verde" width={700} height={700} className="w-[600px] h-auto" />
+          <Image src="/img/img_verde_inf.png" alt="img_inferior_verde" width={700} height={700} className="w-[800px] h-[380px]" />
         </div>
       </section>
 
       <section className="bg-[#333333] text-white py-12">
-        <div className="max-w-full mx-auto flex items-center justify-between px-4">
-          <div className="w-2/3 pr-8 ml-24">
-            <h1 className="text-5xl font-bold mb-4">
+        <div className="flex max-w-6xl mx-auto px-4 items-center">
+          <div className="w-2/3 pr-8">
+            <h1 className="text-6xl font-bold mb-4">
               O que a <span className="text-[#83FF62]">Luminis</span> faz:
             </h1>
             <p className="text-xl leading-relaxed mt-10">
@@ -41,22 +41,34 @@ export default function Home() {
           
           <div className="w-1/3 flex justify-end">
             <div className="w-full max-w-none">
-              <Image src="/img/img_lampada.png" alt="img_lampada" width={1000} height={1000} className="w-full h-auto" />
+              <Image src="/img/img_lampada.png" alt="img_lampada" width={500} height={500} className="w-full h-auto" />
             </div>
           </div>
         </div>
       </section>
-      <section>
-        <div>
-          <h1>Com a <strong>Luminis</strong> você conseguirá: </h1>
-        </div>
-        <div>
-          <ul>
-            <li>
-              <strong>Conscientização Ambiental:</strong> Entenda o impacto do seu consumo 
-              de energia no meio ambiente.
-            </li>
-          </ul>
+
+      <section className="bg-[#f0f0f0] py-12">
+        <div className="max-w-6xl mx-auto px-4 flex items-center justify-between">
+          <div className="w-2/3">
+            <h1 className="text-5xl font-bold text-center mb-8">
+              Com a <strong>Luminis</strong> você conseguirá:
+            </h1>
+
+            <div className="grid grid-cols-2 gap-8">
+              <ul className="text-xl text-[#333333] space-y-4">
+                <li><strong>Conscientização Ambiental:</strong> Entenda o impacto do seu consumo de energia no meio ambiente.</li>
+                <li><strong>Sugestões Práticas:</strong> Receba dicas de mudanças simples para diminuir sua pegada de carbono.</li>
+              </ul>
+
+              <ul className="text-xl text-[#333333] space-y-4">
+                <li><strong>Economia de Energia:</strong> Identifique formas de reduzir o consumo e economizar nas contas.</li>
+                <li><strong>Apoio à Sustentabilidade:</strong> Contribua para um futuro mais verde, fazendo escolhas conscientes.</li>
+              </ul>
+            </div>
+          </div>
+          <div className="w-1/3 flex justify-end">
+            <Image src="/img/img_planta.png" alt="img_planta" width={500} height={500} className="w-full h-auto" />
+          </div>
         </div>
       </section>
     </main>
