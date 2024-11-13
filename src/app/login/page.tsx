@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function Login() {
@@ -37,6 +38,9 @@ export default function Login() {
           >
             Entrar
           </button>
+          <Link className='lo-createAccountLink block text-center mt-4 text-blue-500 hover:underline' href={"/cadastro"}>
+            Criar uma conta
+          </Link>
         </form>
       </div>
     </div>
