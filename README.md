@@ -1,6 +1,4 @@
-## Global Solution
-
-## Consert Car's
+# LUMINIS - O Visualizador de Emissões de CO₂
 
 ## Equipe
 
@@ -8,46 +6,39 @@
 - Igor Werneck Jacobosque RM: 558395
 - Cristian Caja Rodrigues RM: 558502
 
-## Links
+## Descrição do Projeto
 
-Link do video: https://www.youtube.com/watch?v=7OOj8UOQIBM
+Luminis é uma ferramenta web interativa desenvolvida para ajudar usuários a entenderem a relação entre seu consumo de energia, as emissões de CO₂ e os custos envolvidos. Ao inserir informações sobre o uso de eletricidade, gás e outros recursos energéticos, o sistema calcula as emissões de CO₂ e fornece uma visão clara do impacto ambiental e financeiro desse consumo.
 
-Link da Vercel: https://challenge-front-sprint4.vercel.app/
+Com uma interface simples e intuitiva, o usuário pode visualizar rapidamente o quanto seu estilo de vida contribui para as emissões de carbono e, ao mesmo tempo, entender onde pode economizar. O sistema também oferece orientações práticas para reduzir os custos energéticos, incluindo sugestões de melhorias em eficiência energética e recomendações de pequenas mudanças diárias que podem resultar em economia significativa.
 
-Link do figma: https://www.figma.com/design/kIeSv2r9V96nXgtUbxfN7T/Consert-Car%C2%B4s---Sprint-3?node-id=0-1&t=sHi49Z1KazC7DNNt-1
+## Objetivo e Impacto
 
-Link Repositório de Java: https://github.com/GuiRomanholi/concertcars
+A Luminis busca conscientizar o usuário sobre o impacto ambiental do consumo energético e proporcionar economia financeira. A ferramenta destaca os principais pontos de consumo e indica oportunidades para reduzir os gastos com energia, tornando-se um recurso prático tanto para sustentabilidade quanto para gestão de despesas pessoais e familiares.
 
-Obs: No Java não foi feito o deploy, então se atente a clonar o repositorio, e caso for olhar a URL de Java, é ideal que o nome do Endpoint seja:
-http://localhost:8080/concertcars/clientes
+## Diferenciais do Projeto
 
-# Projeto de Protótipo no Figma
+- **Simplicidade e Acessibilidade**: Projetado para ser de fácil uso, com uma interface que facilita o entendimento dos dados de consumo e emissões.
+- **Feedback em Tempo Real**: Calcula o impacto ambiental e financeiro instantaneamente, permitindo ao usuário visualizar o efeito de cada ação.
+- **Foco na Economia e Sustentabilidade**: Orientações para reduzir os custos energéticos e emissões de CO₂, ajudando o usuário a economizar enquanto adota práticas sustentáveis.
 
-## Descrição
+## Público-Alvo
 
-Este projeto é um protótipo criado no Figma, desenvolvido utilizando Next.js para a codificação e Tailwind para a estilização. O projeto inclui quatro páginas principais:
-
-- [x]  **Página Principal**
-- [x] **Sobre Nós**
-- [x]  **Fale Conosco**
-- [x] **FAQ**
-- [x] **Login**
-- [x] **Cadastro**
+Indivíduos e pequenas empresas interessados em monitorar e reduzir sua pegada de carbono e otimizar os custos de energia, além de educadores e estudantes que buscam uma ferramenta prática para estudos sobre impacto ambiental.
 
 ## Tecnologias Utilizadas
 
-Fizemos a migração de React para Next.js visando melhorar a performance, 
-a escalabilidade e a experiência do desenvolvedor. o Next.js permite que 
-as páginas sejam renderizadas no servidor antes de serem enviadas ao cliente. 
-Isso resulta em tempos de carregamento mais rápidos e melhor performance em 
-SEO, já que os motores de busca conseguem indexar o conteúdo renderizado.
+- **Next.js**: Framework React para construção de aplicações web otimizadas.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática ao código.
+- **Tailwind CSS**: Framework de utilitários CSS para estilização rápida e eficiente.
+- **Figma**: Utilizado para prototipagem e design da interface.
 
+## Links
 
-## API Routes
-Next.js permite a criação de rotas de API diretamente dentro da aplicação, o 
-que facilita a construção de backends simples e a gestão de dados sem a necessidade 
-de configurar um servidor separado. Isso resulta em um fluxo de desenvolvimento mais ágil e coeso.
+- **Link do Protótipo no Figma**: [Figma Luminis](https://www.figma.com/design/fJkuxHkqf3qbtbbjdufh3K/Luminis?node-id=0-1&t=wZzNxFm65CBdg515-1)
+- **Link da Vercel**: [Deploy na Vercel](ainda não feito)
+- **Repositório GitHub**: [Luminis no GitHub](https://github.com/GuiRomanholi/gs-front-luminis)
 
-- [x] **Figma:** Para criação do protótipo e definição do design.
-- [x] **Next.js:** Biblioteca JavaScript para construção da interface do usuário.
-- [x] **Tailwind:** Técnica de estilização que permite a aplicação de estilos localizados.
+## Conclusão
+
+A Luminis é uma solução prática e educativa que contribui para uma sociedade mais consciente e econômica, proporcionando ao usuário a oportunidade de reduzir suas emissões e seus gastos com energia. Essa ferramenta une sustentabilidade e economia, promovendo um estilo de vida que é bom para o bolso e para o planeta.
