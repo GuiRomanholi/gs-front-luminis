@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function Cadastro() {
@@ -49,6 +50,9 @@ export default function Cadastro() {
           >
             Cadastrar
           </button>
+            <Link className="justify-center block mt-4 text-center no-underline" href="/login">
+                Já possui uma conta? <span className="text-[#0874f8]">Login</span>
+            </Link>
         </form>
       </div>
     </div>

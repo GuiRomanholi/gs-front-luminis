@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function Sobre() {
   return (
     <main className="flex flex-col items-center">
-      
-      <section className="flex justify-center py-8">
-        <Image src="/img/img_quem_somos.png" alt="img_quem" width={900} height={900} className="w-3/5 h-auto" />
+
+      <section className="flex justify-center py-8 w-full">
+        <Image src="/img/img_quem_somos.png" alt="img_quem" width={900} height={900} className="w-2/5 h-auto md:w-2/3 sm:w-full" />
       </section>
       
       <section className="bg-[#333333] text-white py-8 w-full flex flex-col items-center">
@@ -14,7 +14,7 @@ export default function Sobre() {
           <h1 className="text-4xl font-bold">Nosso Time</h1>
         </div>
         
-        <div className="flex flex-wrap justify-center gap-8 max-w-5xl">
+        <div className="flex flex-wrap justify-center gap-8 max-w-5xl px-4">
           
           <div className="flex flex-col items-center w-48">
             <Image src="/img/foto_cristan.png" alt="img_cristian" width={150} height={150} className="rounded-full w-full h-auto" />
