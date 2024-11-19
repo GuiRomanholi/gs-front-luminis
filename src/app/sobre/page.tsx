@@ -6,7 +6,7 @@ export default function Sobre() {
     <main className="flex flex-col items-center">
 
       <section className="flex justify-center py-8 w-full">
-        <Image src="/img/img_quem_somos.png" alt="img_quem" width={900} height={900} className="w-2/5 h-auto md:w-2/3 sm:w-full" />
+        <Image src="/img/img_quem_somos.png" alt="img_quem" width={200} height={200} className="w-1/5 h-auto md:w-2/3 sm:w-full" />
       </section>
       
       <section className="bg-[#333333] text-white py-8 w-full flex flex-col items-center">
