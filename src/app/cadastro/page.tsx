@@ -1,13 +1,13 @@
 "use client";
 import Link from 'next/link';
+import { useState, FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
-import React, { useState, FormEvent } from 'react';
 
 export default function Cadastro() {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<boolean>(false);
-  const router = useRouter();
+  const navigate = useRouter();
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -16,13 +16,14 @@ export default function Cadastro() {
     setSuccess(false);
 
     const formData = new FormData(event.currentTarget);
-    const usuarioData = {
-      nome: formData.get('nome') as string,
-      senha: formData.get('senha') as string,
-      email: formData.get('email') as string,
+    const clienteData = {
+      cpf: formData.get('txtCpf') as string,
+      nome: formData.get('txtNome') as string,
+      senha: formData.get('txtSenha') as string,
+      email: formData.get('txtEmail') as string,
     };
 
-    console.log('Dados do usuário:', usuarioData);
+    console.log('Dados do cliente:', clienteData);
 
     try {
       const response = await fetch('/api/usuario', {
@@ -30,7 +31,7 @@ export default function Cadastro() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(usuarioData),
+        body: JSON.stringify(clienteData),
       });
 
       if (!response.ok) {
@@ -40,15 +41,11 @@ export default function Cadastro() {
 
       const data = await response.json();
       setSuccess(true);
-      console.log('Usuário cadastrado com sucesso:', data);
-      router.push('/login');
-    } catch (err: unknown) {
-      if (err instanceof Error) {
-        setError(`Erro ao cadastrar: ${err.message}`);
-      } else {
-        setError('Erro desconhecido.');
-      }
-      console.error('Erro no cadastro:', err);
+      console.log('Cliente cadastrado com sucesso:', data);
+      navigate.push('/login'); // Redireciona para a página de login após sucesso
+    } catch (error) {
+      setError("Deu Erro: " + (error instanceof Error ? error.message : 'Erro desconhecido'));
+      console.error('Falha na gravação:', error);
     } finally {
       setLoading(false);
     }
@@ -64,11 +61,23 @@ export default function Cadastro() {
         <h1 className="text-3xl font-bold text-center mb-6 text-gray-800">Cadastro</h1>
 
         <div className="mb-4">
+          <label htmlFor="cpf" className="block text-gray-700 font-semibold mb-2">CPF</label>
+          <input
+            type="text"
+            name="txtCpf"
+            id="idCpf"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            placeholder="Digite seu cpf"
+            required
+          />
+        </div>
+
+        <div className="mb-4">
           <label htmlFor="nome" className="block text-gray-700 font-semibold mb-2">Nome</label>
           <input
             type="text"
-            name="nome"
-            id="nome"
+            name="txtNome"
+            id="idNome"
             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="Digite seu nome"
             required
@@ -79,8 +88,8 @@ export default function Cadastro() {
           <label htmlFor="senha" className="block text-gray-700 font-semibold mb-2">Senha</label>
           <input
             type="password"
-            name="senha"
-            id="senha"
+            name="txtSenha"
+            id="idSenha"
             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="Digite sua senha"
             required
@@ -91,8 +100,8 @@ export default function Cadastro() {
           <label htmlFor="email" className="block text-gray-700 font-semibold mb-2">Email</label>
           <input
             type="email"
-            name="email"
-            id="email"
+            name="txtEmail"
+            id="idEmail"
             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="Digite seu email"
             required
@@ -107,8 +116,8 @@ export default function Cadastro() {
           {loading ? 'Cadastrando...' : 'Cadastrar'}
         </button>
 
-        {error && <p className="text-red-500 mt-4 text-center">{error}</p>}
-        {success && <p className="text-green-500 mt-4 text-center">Usuário cadastrado com sucesso!</p>}
+        {error && <p className="text-red-500 mt-4">{error}</p>}
+        {success && <p className="text-green-500 mt-4">Cliente cadastrado com sucesso!</p>}
 
         <Link className="justify-center block mt-4 text-center no-underline" href="/login">
           Já possui uma conta? <span className="text-[#0874f8]">Login</span>

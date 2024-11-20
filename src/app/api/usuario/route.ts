@@ -3,15 +3,15 @@ import { TipoUsuario } from "@/types";
 
 export async function POST(request: Request) {
     try {
-        const { nome, senha ,email } = await request.json();
+        const { cpf, nome, senha, email } = await request.json();
         
-        console.log("Dados recebidos:", { nome, senha ,email });
+        console.log("Dados recebidos:", { cpf, nome, senha ,email });
 
-        if ( !nome || !senha || !email ) {
+        if (!cpf || !nome || !senha ||!email ) {
             throw new Error("Todos os campos são obrigatórios.");
         }
 
-        const novoCliente: TipoUsuario = { nome, senha ,email };
+        const novoCliente: TipoUsuario = { cpf, nome, senha ,email };
 
         const response = await fetch('http://localhost:8080/luminis/usuarios', { 
             method: 'POST',

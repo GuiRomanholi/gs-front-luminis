@@ -1,5 +1,6 @@
 export type TipoUsuario = {
-    nome:string;
-    senha:string;
-    email:string;
-}
+    cpf: string;
+    nome: string;
+    senha: string;
+    email: string;
+};
