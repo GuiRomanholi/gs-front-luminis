@@ -39,7 +39,7 @@ export default function Fale() {
         </div>
       </section>
 
-      <article className="text-center my-8 px-4">
+      <article className="text-center my-20 px-4">
         <h1 className="text-4xl mb-4"><strong>Tem alguma dúvida sobre a Luminis?</strong></h1>
         <p className="text-xl md:text-2xl max-w-3xl mx-auto m-10">
           Já deu uma olhada nas Dúvidas Frequentes? Pode ser que a sua resposta já esteja por lá! Ainda quer falar com a gente? Entre em contato pelo e-mail ou contact-nos por telefone.
