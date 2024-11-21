@@ -36,8 +36,9 @@ Indivíduos e pequenas empresas interessados em monitorar e reduzir sua pegada d
 ## Links
 
 - **Link do Protótipo no Figma**: [Figma Luminis](https://www.figma.com/design/fJkuxHkqf3qbtbbjdufh3K/Luminis?node-id=0-1&t=wZzNxFm65CBdg515-1)
-- **Link da Vercel**: [Deploy na Vercel](ainda não feito)
+- **Link da Vercel**: [Deploy na Vercel](https://gs-front-luminis.vercel.app/)
 - **Repositório GitHub**: [Luminis no GitHub](https://github.com/GuiRomanholi/gs-front-luminis)
+- **Repositório Java**: [Java GitHub](https://github.com/GuiRomanholi/luminis.git)
 
 ## Conclusão
 
