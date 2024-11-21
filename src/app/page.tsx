@@ -26,7 +26,7 @@ export default function Home() {
           <p className="text-lg md:text-2xl text-[#555555] mb-4">
             Descubra suas <strong>emissões de CO₂</strong> com base no <strong>consumo de energia</strong> e receba sugestões para <strong>reduzir sua pegada de carbono.</strong> Pequenas mudanças podem fazer uma <strong>grande diferença</strong> para o <strong>meio ambiente!</strong>
           </p>
-          <Link href="/" className="bg-[#83FF62] text-black px-6 py-2 rounded-md mt-4 md:mt-10 hover:bg-green-600 transition">Começar</Link>
+          <Link href="/login" className="bg-[#83FF62] text-black px-6 py-2 rounded-md mt-4 md:mt-10 hover:bg-green-600 transition">Começar</Link>
         </div>
 
         <div className="w-full flex justify-start mt-0 mb-0">
