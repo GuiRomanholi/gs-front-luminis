@@ -1,7 +1,6 @@
 "use client"
 import React, { useState } from 'react';
 
-
 export default function Calculo() {
   const fatorEmissao = 0.092;
   const [consumo, setConsumo] = useState<number | string>('');
@@ -22,13 +21,25 @@ export default function Calculo() {
     const emissaoCalculada = consumoNum * fatorEmissao;
     setEmissao(emissaoCalculada);
 
-    if (emissaoCalculada > 100) {
+    if (emissaoCalculada <= 50) {
       setMensagem(
-        'Sua emissão de CO2 é alta. Considere reduzir o consumo de energia, utilizando fontes renováveis ou otimizando seus aparelhos.'
+        'Sua emissão de CO2 é muito baixa. Parabéns por seu consumo eficiente! Continue usando energia renovável e equipamentos de baixo consumo energético.'
+      );
+    } else if (emissaoCalculada <= 100) {
+      setMensagem(
+        'Sua emissão de CO2 está em um nível aceitável. Considere monitorar seu consumo e buscar formas de torná-lo ainda mais eficiente.'
+      );
+    } else if (emissaoCalculada <= 200) {
+      setMensagem(
+        'Sua emissão de CO2 é moderada. Procure desligar aparelhos em standby, trocar lâmpadas por LED e evitar o uso excessivo de aquecedores ou ar-condicionado.'
+      );
+    } else if (emissaoCalculada <= 300) {
+      setMensagem(
+        'Sua emissão de CO2 é alta. Reduza o uso de equipamentos que consomem muita energia, como chuveiros elétricos e fornos, e avalie a instalação de painéis solares.'
       );
     } else {
       setMensagem(
-        'Sua emissão de CO2 está em um nível aceitável. Continue assim e explore maneiras de reduzir ainda mais!'
+        'Sua emissão de CO2 é muito alta. Considere revisar todo o seu consumo energético, investir em fontes de energia renovável e adotar hábitos mais sustentáveis.'
       );
     }
   };
