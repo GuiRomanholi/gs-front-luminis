@@ -6,6 +6,16 @@
 - Igor Werneck Jacobosque RM: 558395
 - Cristian Caja Rodrigues RM: 558502
 
+## Links
+
+- **Link do Protótipo no Figma**: [Figma Luminis](https://www.figma.com/design/fJkuxHkqf3qbtbbjdufh3K/Luminis?node-id=0-1&t=wZzNxFm65CBdg515-1)
+- **Link da Vercel**: [Deploy na Vercel](https://gs-front-luminis.vercel.app/)
+- **Repositório GitHub**: [Luminis no GitHub](https://github.com/GuiRomanholi/gs-front-luminis)
+- **Repositório Java**: [Java GitHub](https://github.com/GuiRomanholi/luminis.git)
+
+Obs: No Java não foi feito o deploy, então se atente a clonar o repositorio, e caso for olhar a URL de Java, é ideal que o nome do Endpoint seja:
+http://localhost:8080/luminis/usuarios
+
 ## Descrição do Projeto
 
 Luminis é uma ferramenta web interativa desenvolvida para ajudar usuários a entenderem a relação entre seu consumo de energia, as emissões de CO₂ e os custos envolvidos. Ao inserir informações sobre o uso de eletricidade, gás e outros recursos energéticos, o sistema calcula as emissões de CO₂ e fornece uma visão clara do impacto ambiental e financeiro desse consumo.
@@ -32,13 +42,6 @@ Indivíduos e pequenas empresas interessados em monitorar e reduzir sua pegada d
 - **TypeScript**: Superset do JavaScript que adiciona tipagem estática ao código.
 - **Tailwind CSS**: Framework de utilitários CSS para estilização rápida e eficiente.
 - **Figma**: Utilizado para prototipagem e design da interface.
-
-## Links
-
-- **Link do Protótipo no Figma**: [Figma Luminis](https://www.figma.com/design/fJkuxHkqf3qbtbbjdufh3K/Luminis?node-id=0-1&t=wZzNxFm65CBdg515-1)
-- **Link da Vercel**: [Deploy na Vercel](https://gs-front-luminis.vercel.app/)
-- **Repositório GitHub**: [Luminis no GitHub](https://github.com/GuiRomanholi/gs-front-luminis)
-- **Repositório Java**: [Java GitHub](https://github.com/GuiRomanholi/luminis.git)
 
 ## Conclusão
 
