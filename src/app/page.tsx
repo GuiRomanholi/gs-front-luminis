@@ -76,7 +76,6 @@ export default function Home() {
                 <li><strong>Conscientização Ambiental:</strong> Entenda o impacto do seu consumo de energia no meio ambiente.</li>
                 <li><strong>Sugestões Práticas:</strong> Receba dicas de mudanças simples para diminuir sua pegada de carbono.</li>
               </ul>
-
               <ul className="text-lg md:text-xl text-[#333333] space-y-4">
                 <li><strong>Economia de Energia:</strong> Identifique formas de reduzir o consumo e economizar nas contas.</li>
                 <li><strong>Apoio à Sustentabilidade:</strong> Contribua para um futuro mais verde, fazendo escolhas conscientes.</li>
