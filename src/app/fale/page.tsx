@@ -32,6 +32,7 @@ export default function Fale() {
           </div>
 
           <hr className="border-t-2 border-[#333333] w-3/4 mx-auto lg:mx-0 my-4" />
+          
         </div>
 
         <div className="lg:w-1/3 flex justify-center lg:justify-end mt-8 lg:mt-0">
