@@ -57,7 +57,7 @@ export default function Sobre() {
           proporciona uma experiência completa e satisfatória para quem busca adotar 
           práticas mais conscientes e economizar nos custos de energia.
         </p>
-        <a href="https://youtube.com" target="_blank" className="inline-block bg-[#83FF62] text-[#333333] font-semibold py-2 px-6 rounded-lg hover:bg-green-500 transition">
+        <a href="https://www.youtube.com/watch?v=trbFRtswIfM" target="_blank" className="inline-block bg-[#83FF62] text-[#333333] font-semibold py-2 px-6 rounded-lg hover:bg-green-500 transition">
           Saiba Mais
         </a>
       </article>
