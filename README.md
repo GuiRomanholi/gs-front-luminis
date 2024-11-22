@@ -12,6 +12,7 @@
 - **Link da Vercel**: [Deploy na Vercel](https://gs-front-luminis.vercel.app/)
 - **Repositório GitHub**: [Luminis no GitHub](https://github.com/GuiRomanholi/gs-front-luminis)
 - **Repositório Java**: [Java GitHub](https://github.com/GuiRomanholi/luminis.git)
+- **Link do Pitch**: [Link Pitch](https://www.youtube.com/watch?v=trbFRtswIfM)
 
 Obs: No Java não foi feito o deploy, então se atente a clonar o repositorio, e caso for olhar a URL de Java, é ideal que o nome do Endpoint seja:
 http://localhost:8080/luminis/usuarios
