@@ -19,7 +19,7 @@ http://localhost:8080/luminis/usuarios
 
 ## Descrição do Projeto
 
-Luminis é uma ferramenta web interativa desenvolvida para ajudar usuários a entenderem a relação entre seu consumo de energia, as emissões de CO₂ e os custos envolvidos. Ao inserir informações sobre o uso de eletricidade, gás e outros recursos energéticos, o sistema calcula as emissões de CO₂ e fornece uma visão clara do impacto ambiental e financeiro desse consumo.
+Luminis é uma ferramenta web interativa desenvolvida para ajudar usuários a entenderem a relação entre seu consumo de energia, as emissões de CO₂ e os custos envolvidos. Ao inserir informações sobre o uso de eletricidade, o sistema calcula as emissões de CO₂ e fornece uma visão clara do impacto ambiental e financeiro desse consumo.
 
 Com uma interface simples e intuitiva, o usuário pode visualizar rapidamente o quanto seu estilo de vida contribui para as emissões de carbono e, ao mesmo tempo, entender onde pode economizar. O sistema também oferece orientações práticas para reduzir os custos energéticos, incluindo sugestões de melhorias em eficiência energética e recomendações de pequenas mudanças diárias que podem resultar em economia significativa.
 
