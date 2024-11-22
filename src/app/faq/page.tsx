@@ -38,6 +38,7 @@ export default function Faq() {
           As sugestões oferecidas pelo sistema são pensadas para serem práticas e fáceis de aplicar, como ajustes no uso de eletrônicos ou dicas de eficiência. Essas mudanças podem reduzir tanto suas emissões quanto os custos com energia, proporcionando uma economia contínua.
         </p>
       </article>
+      
     </div>
   )
 }
