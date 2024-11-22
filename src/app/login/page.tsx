@@ -61,7 +61,6 @@ export default function Login() {
               onChange={(e) => setCpf(e.target.value)}
             />
           </div>
-
           <div>
             <label htmlFor="nome" className="block text-gray-700 font-semibold mb-2">Nome</label>
             <input
