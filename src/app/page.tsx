@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <main>
       <section className="flex flex-col items-center text-center py-0 bg-[#f0f0f0]">
+        
         <div className="w-full flex justify-end mt-0 mb-0">
           <Image
             src="/img/img_verde_sup.png"
