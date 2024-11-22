@@ -16,7 +16,7 @@ export default function Footer() {
           <p className="text-white text-2xl leading-none">|</p>
 
           <li>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/watch?v=trbFRtswIfM" target="_blank" rel="noopener noreferrer">
               <Image src="/img/icon_youtube.png" alt="Youtube_Branco" width={30} height={30} className="w-5 h-auto" />
             </a>
           </li>
@@ -26,7 +26,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/luminis_of" target="_blank" rel="noopener noreferrer">
               <Image src="/img/icon_instagram.png" alt="Instagram_Branco" width={30} height={30} className="w-5 h-auto" />
             </a>
           </li>
