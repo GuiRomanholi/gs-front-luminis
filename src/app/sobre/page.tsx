@@ -15,7 +15,6 @@ export default function Sobre() {
         </div>
         
         <div className="flex flex-wrap justify-center gap-8 max-w-5xl px-4">
-          
           <div className="flex flex-col items-center w-48">
             <Image src="/img/foto_cristan.png" alt="img_cristian" width={150} height={150} className="rounded-full w-full h-auto" />
             <h3 className="text-2xl font-semibold mt-4">Cristian Caja</h3>
@@ -61,7 +60,6 @@ export default function Sobre() {
           Saiba Mais
         </a>
       </article>
-
     </main>
   )
 }
